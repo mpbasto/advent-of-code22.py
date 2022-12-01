@@ -1,2 +1,3 @@
-# advent-of-code22.py
-Advent of code solutions in Python
+# Advent of code 2022 (Python Edition)
+
+Collection of challenges around [Advent of Code 2022](https://adventofcode.com/)
