@@ -1,3 +1,4 @@
+from utils.helpers import str_list
 
 def solve_part_1(data):
     elf = {"A": 1, "B": 2, "C": 3} # Column 1
@@ -44,7 +45,8 @@ def solve_part_2(data):
 
     return totals
 
-with open('../inputs/day2-input.txt', 'r') as file:
-    games = file.read().splitlines()
-    print(f'The answer for part 1 is: {solve_part_1(games)}')
-    print(f'The answer for part 2 is: {solve_part_2(games)}')
+
+games = str_list('./inputs/day2-input.txt')
+print(f'The answer for part 1 is: {solve_part_1(games)}')
+print(f'The answer for part 2 is: {solve_part_2(games)}')
+    
