@@ -1,1 +1,4 @@
 __pycache__/
+tests/
+aoc_template.py
+day3-example.txt

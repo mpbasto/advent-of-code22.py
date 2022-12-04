@@ -47,6 +47,6 @@ def solve_part_2(data):
 
 
 games = str_list('./inputs/day2-input.txt')
-print(f'The answer for part 1 is: {solve_part_1(games)}')
-print(f'The answer for part 2 is: {solve_part_2(games)}')
+print(f'The answer for part 1 is: {solve_part_1(games)}') # 17189
+print(f'The answer for part 2 is: {solve_part_2(games)}') # 13490
     
